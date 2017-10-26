@@ -1,0 +1,9 @@
+Steps:
+
+- Install "docker" and "docker-compose"
+- Run "docker-compose up" in the terminal from this directory root
+- In another terminal window, check the created "db" container id
+- Run docker exec -it [container_id] bash 
+  * you must have got into the container
+- Go to "/code/" dir in container
+- Run java -jar WriteToCassandra.jar localhost /code/data
