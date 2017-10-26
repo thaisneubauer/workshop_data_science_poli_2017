@@ -3,4 +3,4 @@ services:
     db:
         image: cassandra
         volumes: 
-             - ./db/:/data/
+             - ./db/:/code/
